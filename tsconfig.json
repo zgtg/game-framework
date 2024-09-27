@@ -1,0 +1,25 @@
+{
+  "composite": true,
+  "compilerOptions": {
+    "module": "amd",
+    "lib": [
+      "dom",
+      "es5",
+      "es2015.promise"
+    ],
+    "target": "es5",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "outFile": "../game/assets/frameworkLibs/xgame.js",
+    "sourceMap": true,
+    "declaration": true,
+    "alwaysStrict": true,
+    "composite": true,
+    "declarationMap": true
+  },
+  "include": [
+    "**/*",
+    "../game/creator.d.ts",
+    "../game/assets/libs/wx_mini_game.d.ts"
+  ]
+}
